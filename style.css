@@ -1,0 +1,119 @@
+body {
+    background-color: #AC8E60;
+    font-family: Ubuntu Sans, sans-serif;
+}
+
+#albums{
+    display: block;
+}
+
+#title-header {
+    font-weight: 800;
+    font-size: 150%;
+    color: beige;
+    font-style: italic;
+    display: block;
+    text-align: center;
+    clear: both;
+}
+
+body > h1 {
+    text-align: center;
+    background-color: beige;
+    border-radius: 50%;
+    border: black solid 5px;
+    display: block;
+}
+
+#eternal-sunshine > img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 5px;
+}
+
+#eternal-sunshine {
+    background-color: #BD8E83;
+    padding: 5px;
+    border: black dashed 3px;
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+
+}
+
+#red-tv {
+    background-color: #BD8E83;
+    padding: 5px;
+    border: black dashed 3px;
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: #E9DAC4;
+    font-style: italic;
+}
+
+#red-tv > img {
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-left: 5px;
+}
+
+@media (min-width: 400px) and (max-width: 720px) {
+    #red-tv > img {
+        width: 150px;
+        height: 150px;
+        float: right;
+        margin-left: 5px;
+    }
+
+    #eternal-sunshine > img {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-right: 5px;
+    }
+
+    #eternal-sunshine {
+        background-color: #BD8E83;
+        padding: 5px;
+        border: black dashed 3px;
+        display: block;
+        margin: auto;
+        margin-bottom: 3px;
+        width: 40%;
+        height: 100%;
+    }
+    
+    #red-tv {
+        background-color: #BD8E83;
+        padding: 5px;
+        border: black dashed 3px;
+        display: block;
+        margin: auto;
+        width: 40%;
+        height: 100%;
+    }
+
+    h2 {
+        text-align: center;
+        color: #E9DAC4;
+        font-style: italic;
+        font-size: large;
+    }
+
+    #albums{
+        display: block;
+        width: 100%;
+    }
+
+    p {
+        font-size: 85%;
+    }
+
+}
