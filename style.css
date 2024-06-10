@@ -279,3 +279,57 @@ h2 {
     }
 
 }
+
+@media (min-height: 1000px) {
+    #red-tv > img {
+        width: 150px;
+        height: 150px;
+        float: right;
+        margin-left: 5px;
+    }
+
+    #eternal-sunshine > img {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-right: 5px;
+    }
+
+    #eternal-sunshine {
+        background-color: #BD8E83;
+        padding: 5px;
+        border: black dashed 3px;
+        display: block;
+        margin: auto;
+        margin-bottom: 3px;
+        width: 40%;
+        height: 100%;
+    }
+    
+    #red-tv {
+        background-color: #BD8E83;
+        padding: 5px;
+        border: black dashed 3px;
+        display: block;
+        margin: auto;
+        width: 40%;
+        height: 100%;
+    }
+
+    h2 {
+        text-align: center;
+        color: #E9DAC4;
+        font-style: italic;
+        font-size: large;
+    }
+
+    #albums{
+        display: block;
+        width: 100%;
+    }
+
+    p {
+        font-size: 85%;
+    }
+
+}
